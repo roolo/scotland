@@ -13,10 +13,11 @@ Just another template for running [YARD documentation tool](http://yardoc.org/) 
 
 5. Link directory by [powder](https://github.com/Rodreegez/powder) or simply [ln](http://unixhelp.ed.ac.uk/CGI/man-cgi?ln)
 
+```bash
     #using powder
     powder link
     
     #using ln
     ln -s . ~/.pow/scotland
-
+```
 6. Open it in web browser -- `powder open`
