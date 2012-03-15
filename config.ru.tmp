@@ -1,0 +1,12 @@
+require 'rubygems'
+require 'yard'
+
+run YARD::Server::RackAdapter.new({
+  "mwstt" => [
+    YARD::Server::LibraryVersion.new("mwstt", nil, "/Users/mailo/Projects/my/mwstt/.yardoc")
+  ],
+  "this will be on yard index page (project name)" => [
+    YARD::Server::LibraryVersion.new("this will be in url of docs (project name)", nil, "path to in documented project .yardoc dir")
+  ],
+
+})
